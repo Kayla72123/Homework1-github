@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Chalkboard'; 
-    src: url('fonts/ChalkboardSE.ttc') format('truetype');
+    src: url('fonts/ChalkboardSE.ttc') format('sans-serif');
 }
 
 h1{
@@ -25,15 +25,27 @@ h1{
 
 h2{
     text-align: center;
+    font-family: 'Chalkboard', sans-serif;
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
 }
 
 h3{
     text-align: center;
+    font-family: 'Chalkboard', sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-style: italic;
 }
 
 h4{
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Chalkboard', sans-serif;
 }
 
 p{
@@ -56,9 +68,14 @@ section{
 }
 
 details{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
     font-size: 20px;
+    margin-top: 0;
+
+    font-family: 'Chalkboard', sans-serif;
+    font-size: 30px;
 }
 
 
@@ -66,5 +83,6 @@ div{
     display: flex;
     justify-content: center;
 }
+
 
 
