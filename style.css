@@ -1,53 +1,70 @@
-html{
-    
-    @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
-    h1{
-        padding: 10 px;
-
-        font-family: "Meow Script", cursive;
-        font-weight: 400;
-        font-style: normal;
-
-    }
-
-    h2{
-        text-align: center;
-    }
-
-    h3{
-        text-align: center;
-    }
-
-    h4{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    p{
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 20px;
-    }
-
-    
-    
-    section{
-        text-align: left;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    details{
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 20px;
-    }
 
 
-    div{
-        display: flex;
-        justify-content: center;
-    }
-    
-
+@font-face {
+    font-family: 'GreatVibes'; 
+    src: url('fonts/GreatVibes_Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Chalkboard'; 
+    src: url('fonts/ChalkboardSE.ttc') format('truetype');
+}
+
+h1{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    font-family: 'GreatVibes', cursive;
+    font-size: 80px;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p{
+    padding-top: 0px;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 20px;
+    margin-top: 0;
+
+    font-family: 'Chalkboard', sans-serif;
+    font-size: 30px;
+}
+
+
+
+section{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+details{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+
